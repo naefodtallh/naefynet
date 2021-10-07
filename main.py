@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/ynet')
 def ynet():
-    data = "C:/Path/test.xml"
+    data = "C:\Users\User\Desktop\yynetn\StoryRss2.xml"
     tree = etree.parse(data)
     lstKey = []
      lstValue = []
